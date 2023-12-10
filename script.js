@@ -3,7 +3,7 @@ let string = "";
 //Selects all buttons having class .button
 let buttons = document.querySelectorAll('.row');
 
-//When I click the button, it will appear in the textbox
+// When I click the button, it will appear in the textbox
 Array.from(buttons).forEach((button) => {
     button.addEventListener('click', (e) => {
         if(e.target.innerHTML == 'Enter'){
