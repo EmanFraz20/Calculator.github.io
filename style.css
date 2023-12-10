@@ -1,0 +1,110 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(40, 131, 131);
+  margin: 0;
+  padding: 0;
+}
+
+#color{
+    background-color: rgb(119, 213, 213)
+}
+
+#color:hover{
+    background-color: rgb(40, 131, 131);
+}
+
+#color-enter{
+    padding: 18px 40px;
+    background-color: rgb(71, 175, 175);
+}
+
+#color-enter:hover{
+    background-color: rgb(40, 131, 131);
+}
+.row button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: grab;
+}
+
+.row button:hover{
+    background-color: rgb(40, 131, 131);
+}
+
+.row{
+    margin: 4px 0;
+}
+
+.row input{
+    margin: 0px;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.container{
+    background-color: azure;
+    position: relative;
+    padding: 30px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -ms-flex-item-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+
+#deleteButton{
+    padding: 20px 10px;
+    background-color: rgb(119, 213, 213);
+}
+#deleteButton:hover{
+    background-color: rgb(40, 131, 131);
+}
+
+.snow {
+    animation: fall ease-in infinite, sway ease-in-out infinite;
+    color: skyblue;
+    position: absolute;
+  }
+  
+  
+  
+  @keyframes fall {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      top: 100vh;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes sway {
+    0% {
+      margin-left: 0;
+    }
+    25% {
+      margin-left: 50px;
+    }
+    50% {
+      margin-left: -50px;
+    }
+    75% {
+      margin-left: 50px;
+    }
+    100% {
+      margin-left: 0;
+    }
+  }
